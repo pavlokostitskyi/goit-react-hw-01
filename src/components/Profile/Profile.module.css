@@ -1,0 +1,54 @@
+
+.userImg{
+    background-color: black;
+    border-radius: 50%;
+}
+.useername{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.userinfo{
+    display: flex;
+    color: gray;
+    justify-content: center;
+
+}
+.container {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 16px;
+    /* padding: 16px 20px; */
+    background-color:#fafafa ;
+    max-width: 244px;
+    height: 100%;
+    align-items: center;
+   
+}
+.stats{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin: 0;
+    padding: 0;
+    background-color:#d3d3d3;
+    /* border:2px solid silver ; */
+
+}
+.statslist{
+    width: 100%;
+    border:2px solid #818181 ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.likes{
+    margin-top: 0;
+}
